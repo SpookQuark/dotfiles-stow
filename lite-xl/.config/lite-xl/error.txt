@@ -1,0 +1,27 @@
+Error: /home/trevor/.config/lite-xl/plugins/minimap.lua:450: attempt to index a nil value (local 'color')
+
+stack traceback:
+	/home/trevor/.config/lite-xl/plugins/minimap.lua:450: in function 'plugins.minimap.draw'
+	...45l4h8ig60sa4m-lite-xl-2.1.5/share/lite-xl/core/view.lua:302: in function 'core.view.draw_scrollbar'
+	...4h8ig60sa4m-lite-xl-2.1.5/share/lite-xl/core/docview.lua:590: in upvalue 'old_draw'
+	...a4m-lite-xl-2.1.5/share/lite-xl/plugins/linewrapping.lua:529: in function <...a4m-lite-xl-2.1.5/share/lite-xl/plugins/linewrapping.lua:528>
+	(...tail calls...)
+	...45l4h8ig60sa4m-lite-xl-2.1.5/share/lite-xl/core/node.lua:592: in function 'core.node.draw'
+	...45l4h8ig60sa4m-lite-xl-2.1.5/share/lite-xl/core/node.lua:32: in function 'core.node.propagate'
+	...45l4h8ig60sa4m-lite-xl-2.1.5/share/lite-xl/core/node.lua:597: in function 'core.node.draw'
+	...45l4h8ig60sa4m-lite-xl-2.1.5/share/lite-xl/core/node.lua:31: in function 'core.node.propagate'
+	...45l4h8ig60sa4m-lite-xl-2.1.5/share/lite-xl/core/node.lua:597: in function 'core.node.draw'
+	...45l4h8ig60sa4m-lite-xl-2.1.5/share/lite-xl/core/node.lua:32: in function 'core.node.propagate'
+	...	(skipping 2 levels)
+	...h8ig60sa4m-lite-xl-2.1.5/share/lite-xl/core/rootview.lua:480: in upvalue 'draw'
+	...a4m-lite-xl-2.1.5/share/lite-xl/plugins/autocomplete.lua:598: in upvalue 'root_view_draw'
+	...g60sa4m-lite-xl-2.1.5/share/lite-xl/plugins/treeview.lua:498: in upvalue 'root_view_draw'
+	...sa4m-lite-xl-2.1.5/share/lite-xl/plugins/contextmenu.lua:32: in function 'core.rootview.draw'
+	...45l4h8ig60sa4m-lite-xl-2.1.5/share/lite-xl/core/init.lua:1341: in function 'core.step'
+	...45l4h8ig60sa4m-lite-xl-2.1.5/share/lite-xl/core/init.lua:1401: in upvalue 'core_run'
+	/home/trevor/.config/lite-xl/plugins/profiler/init.lua:78: in upvalue 'core_run'
+	/home/trevor/.config/lite-xl/plugins/ipc.lua:858: in function 'core.run'
+	(...tail calls...)
+	[string "local core..."]:14: in function <[string "local core..."]:6>
+	[C]: in function 'xpcall'
+	[string "local core..."]:6: in main chunk

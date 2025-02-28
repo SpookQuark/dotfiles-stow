@@ -1,1 +1,1 @@
-return { path = "/home/trevor", documents = {["active_view"]=1,["type"]="leaf",["views"]={[1]={["scroll"]={["y"]=0,["x"]=0,["to"]={["y"]=0,["x"]=0}},["active"]=false,["module"]="core.emptyview",["type"]="view"}}}, directories = {} }
+return { path = "/home/trevor", documents = {["type"]="leaf",["views"]={[1]={["type"]="doc",["scroll"]={["x"]=0,["y"]=150.0},["active"]=true,["text"]=false,["filename"]=".dotfiles/lite-xl/.config/lite-xl/colors/1Custom.lua",["selection"]={[1]=1,[2]=1,[3]=1,[4]=1}}},["active_view"]=1}, directories = {} }

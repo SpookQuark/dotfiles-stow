@@ -7,6 +7,8 @@ local keymap = require "core.keymap"
 local config = require "core.config"
 local style = require "core.style"
 
+--config.ignore_files = { "^node_modules$", "^%."} -- diasble .dotfiles shown in left tree
+
 ------------------------------ Themes ----------------------------------------
 
 -- light theme:
